@@ -2,7 +2,6 @@ const container = document.querySelector("#container");
 container.addEventListener("click", trocarCor)
 //foi-se criado um Listener para a div-Pai
 
-
 function random(number) {
     return Math.floor(Math.random() * (number + 1));
 }
