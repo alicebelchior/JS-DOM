@@ -17,20 +17,16 @@ function showHTML() {
     ao clicar no botao html, o usuario muda o path/source da imagem
     para html
      */
-
 }
 
 function showCSS() {
     imgTecnologia.src = "./img/css.png"
-
 }
 
 function showJS() {
     imgTecnologia.src = "./img/js.png"
-
 }
 
 function showTecnologias() {
     imgTecnologia.src = "./img/todas.png"
-
 }
