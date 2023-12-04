@@ -41,7 +41,7 @@ function atualizarTabela() {
           /*
           essa const vai acessar a função auxilair citada que, por sua vez, vai procurar a existencia de uma variavel bd_contatos no Local Storage. Cado exista, ela sera convertida de JSON para array que sera armazenado em bd_contatos
           */
-          bd_contatos.forEach(inserirTabela);
+          bd_contatos.forEach(inserirLinhaTabela);
           //forEach é uma iteração para cada contato registrado na instrução
 }
 
